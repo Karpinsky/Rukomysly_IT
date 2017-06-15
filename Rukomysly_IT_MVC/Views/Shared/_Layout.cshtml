@@ -1,0 +1,150 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>@ViewBag.Title</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    @Styles.Render("~/Content/Site.css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <!--
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/gif" href="animated_favicon1.gif">
+        -->
+    <link rel="shortcut icon" href="@Url.Content("~/content/favicon.ico")">
+
+    <script src="index.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header class="background_black">
+        <nav class="navigation">
+            <section class="navigation_logo">
+                <a href="@Url.Action("Index", "Home")">
+                    <img src="http://rukomysly.com.ua/image/catalog/favicon.png" alt="Rukomysly logo" class="navigation_logo_img">
+                </a>
+            </section>
+
+            <section class="navigation_pages_section">
+                <ul class="navigation_pages_list">
+                    <li class="navigation_pages_element">@Html.ActionLink("Продукти", "Index", "Products")</li>
+                    <li class="navigation_pages_element">@Html.ActionLink("Кошик", "Cart", "Products")</li>
+                    <li class="navigation_pages_element">@Html.ActionLink("Про Рукомисли", "About", "Home")</li>
+                    <li class="navigation_pages_element">@Html.ActionLink("Логін", "Login", "Account")</li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <section>
+        @RenderBody()
+        <hr />
+    </section>
+
+    <section class="indicated_separation_field background_black text_orange">
+        <span>&#x25cf;&#x25cf;&#x25cf;&#x25cf;&#x25cf;</span>
+    </section>
+
+    <footer class="background_black_light">
+        <section class="footer_info_section equally_spaced_line_jumper">
+            <article class="footer_info_article">
+                <h3 class="footer_info_title">ЗАЛИШАЙТЕСЯ НА ЗВ'ЯЗКУ</h3>
+                <p>Залиште свою пошту, щоб отримувати новини від нас</p>
+
+                <input type="email" placeholder="qwerty@example.com" minlength="5" id="email_input_textbox" class="text_black">
+                <button type="button" class="text_orange">Відправити</button>
+
+                <div class="media_references">
+                    <a href="https://www.facebook.com/rukomysly/?fref=ts" target="_blank">
+                        <img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-256.png" alt="">
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697029-twitter-512.png" alt="">
+                    </a>
+
+                    <a href="https://plus.google.com/" target="_blank">
+                        <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/google_circle_color-512.png" alt="">
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="https://images.vexels.com/media/users/3/137198/isolated/preview/07f0d7b69ef071571e4ada2f4d6a053a-instagram-icon-background-by-vexels.png" alt="">
+                    </a>
+                </div>
+            </article>
+
+            <article class="footer_info_article">
+                <h3 class="footer_info_title">НАЗВА ТЕКСТУ</h3>
+                <p>
+                    This paragraph
+                    contains a lot of spaces
+                    in the source code,
+                    but the browser
+                    ignores it. So, this is a test text and later
+                    here will be cool text about something cool.
+                </p>
+            </article>
+
+            <article class="footer_info_article">
+                <h3 class="footer_info_title">НАВІГАЦІЯ</h3>
+
+                <table class="footer_navigation_table">
+                    <tr>
+                        <td><a href="https://www.facebook.com/rukomysly/?fref=ts" target="_blank">Події</a></td>
+                        <td><a href="https://www.facebook.com/rukomysly/?fref=ts" target="_blank">Підтримка</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.facebook.com/rukomysly/?fref=ts" target="_blank">Наша команда</a></td>
+                        <td><a href="https://www.facebook.com/rukomysly/?fref=ts" target="_blank">Про нас</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.facebook.com/rukomysly/?fref=ts" target="_blank">Зв'яжіться з нами</a></td>
+                        <td><a href="https://www.facebook.com/rukomysly/?fref=ts" target="_blank">Веб дизайн</a></td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+
+        <section class="footer_bottom">
+            <article class="footer_bottom_contacts background_black">
+
+                <h3>&#149; Адресса: Кавалерідзе 9а/14, Львів, Україна &#149; Телефон: 0487636854 &#149; </h3>
+
+            </article>
+
+            <article class="footer_bottom_copyright">
+                <h5>&copy; @DateTime.Now.Year - UCU students</h5>
+            </article>
+        </section>
+    </footer>
+
+    @Scripts.Render("~/bundles/index")
+</body>
+</html>

@@ -1,0 +1,819 @@
+﻿.header-right-part {
+  width: 50%;
+}
+
+.header-right-part button {
+  padding: 10px;
+  background-color: #212223;
+  color: #fcf8e3;
+  border: solid;
+  border-color: #212223;
+  border-width: 1px;
+  font-size: 17px;
+  width: 19%;
+}
+.header-right-part button:hover {
+  background-color:  #fcf8e3;
+  color: #212223;
+}
+
+.header-left-part {
+  width: 17%;
+  display: flex;
+}
+
+.header-left-part img {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin-right: 10%;
+}
+
+.header span {
+  font-size: 180%;
+}
+
+.big-img {
+  height: 122vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.background {
+  width: 100%;
+  height: 445px;
+  background-color:#fcf8e3;
+}
+
+.carousel-section {
+  position: relative;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+#myCarousel {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.container {
+  position: absolute;
+  z-index: 1;
+  width: 82%;
+  padding-left: 0;
+  padding-right: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+}
+
+.item {
+  height: 100%;
+  display:flex;
+}
+
+.content {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.item-name {
+  width: 100%;
+  height: 25%;
+  background-color: #fcf8e3;
+  color: #212223;
+  padding: 30px 50px;
+}
+
+.item-name span {
+  font-size: 30px;
+}
+
+.item-desc {
+  width: 100%;
+  height: 55%;
+  background-color: #fcf8e3;
+  color: #212223;
+  padding: 0 50px;
+}
+
+.item-desc span {
+  font-size: 18px;
+}
+
+.but {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 64%;
+  bottom:15%;
+
+}
+
+.but button {
+  padding: 7px 0px;
+  width: 25%;
+  color: #fcf8e3;
+  font-size: 150%;
+  background-color: #212223;
+}
+
+.item-back {
+  width: 100%;
+  height: 20%;
+  background-color: #e6daef;
+
+}
+
+.transp-pic {
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.three-el {
+  display: flex;
+  width: 100%;
+}
+
+.stay-con {
+  width: 33.5%;
+  display: inline-block;
+  float: left;
+}
+
+.footer-sec-name {
+  width: 100%;
+  padding: 10px 40px;
+}
+
+.footer-sec-name span {
+  font-size: 120%;
+  color: #212223;
+}
+
+.stay-con-text {
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.stay-con-text span {
+  font-size: 100%;
+  color: #212223;
+}
+
+.mail {
+  width: 100%;
+}
+
+.stay-con-email {
+  width: 65%;
+  display: inline-block;
+  float: left;
+}
+
+.stay-con-email input {
+  width: 85%;
+  display: inline-block;
+  float: right;
+  color: #212223;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 9%;
+}
+
+.stay-con-sign {
+  width: 35%;
+  display: inline-block;
+  float: left;
+}
+
+.stay-con-sign button {
+  width: 90%;
+  color: #fcf8e3;
+  font-size: 13px;
+  margin-top: 16.8%;
+}
+
+.stay-con-fb {
+  width: 100%;
+  padding: 23px 170px;
+}
+
+.stay-con-fb img{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 20%;
+}
+
+.middle {
+  width: 33%;
+  display: inline-block;
+  float: left;
+}
+
+.middle-text {
+  padding: 0px 40px;
+}
+
+.middle-text span {
+  color: #212223;
+  font-size: 100%;
+}
+
+.navigate {
+  width: 33.5%;
+  display: inline-block;
+  float: left;
+}
+
+.navigate-table {
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.navigate-table table {
+  width: 100%;
+}
+
+.navigate-table td {
+    text-align: left;
+    padding: 8px;
+    color: #212223;
+}
+
+/*
+    Override boostrap and default.
+*/
+
+h1 {
+    margin: 0;
+    padding: 0;
+
+    color: rgb(255, 111, 0);
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+
+    color: rgb(255, 111, 0);
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+
+    color: rgb(255, 111, 0);
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+
+    color: rgb(255, 111, 0);
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+
+    color: rgb(255, 111, 0);
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+
+    color: rgb(255, 111, 0);
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border-color: rgb(255, 111, 0);
+}
+
+/* END */
+
+body {
+    font-family: 'Oswald', 'Dosis', 'Overpass', 'Roboto Slab', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 0;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: rgb(255, 170, 0);
+}
+
+img {
+  flex: none;
+}
+
+.overlay_view_element {
+    z-index: 100;
+}
+
+.front_view_element {
+  z-index: 1;
+}
+
+.text_white {
+  color: rgb(255, 255, 255);
+}
+
+.text_black {
+    color: rgb(0, 0, 0);
+}
+
+.text_orange {
+    color: rgb(255, 111, 0);
+}
+
+.background_white {
+    background-color: rgb(255, 255, 255);
+}
+
+.background_black {
+    background-color: rgb(0, 0, 0);
+}
+
+.background_black_light {
+    background-color: rgb(35, 35, 35);
+}
+
+.background_orange {
+    background-color: rgb(255, 111, 0);
+}
+
+.background_orange_light {
+    background-color: rgb(255, 150, 71);
+}
+
+/*
+    Children of this class have equal space between them. But still works like block - if width is too small
+    children jump below it's left neighbour.
+*/
+.equally_spaced_line_jumper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*
+    Master page
+*/
+
+.navigation {
+    margin: 0 70px;
+
+    overflow: auto;
+}
+
+.navigation_logo {
+}
+
+.navigation_logo_img {
+    position: absolute;
+    z-index: 3;
+
+    height: 50px;
+    margin: 0;
+    top: 5px;
+}
+
+.navigation_pages_section {
+    float: right;
+}
+
+.navigation_pages_list {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    height: 60px;
+
+    list-style-type: none;
+}
+.navigation_pages_list a {
+    text-decoration: none;
+    font-size: large;
+    color: inherit;
+}
+
+.navigation_pages_element {
+    display: flex;
+
+    height: 100%;
+}
+.navigation_pages_element a {
+    padding: 0 20px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.navigation_pages_element:hover {
+    background-color: rgb(255, 111, 0);
+}
+
+.indicated_separation_field {
+  text-align: center;
+  padding: 20px 0 25px;
+  font-size: 30px;
+}
+
+footer {
+
+}
+
+.footer_info_section {
+    padding: 20px 0px 50px;
+}
+
+.footer_info_article {
+    width: 430px;
+    padding: 10px 30px;
+}
+
+.footer_info_title {
+    margin-bottom: 5px;
+}
+
+#email_input_textbox {
+    width: 200px;
+}
+
+.media_references {
+    display: block;
+
+    width: 80%;
+    padding-top: 15px;
+}
+.media_references a {
+    text-decoration: none;
+}
+.media_references img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer_navigation_table {
+
+}
+.footer_navigation_table td {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.footer_bottom {
+    text-align: center;
+}
+
+.footer_bottom_contacts {
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.footer_bottom_copyright {
+    padding-bottom: 50px;
+}
+
+/*
+    END Master
+*/
+
+/*
+    Home page
+*/
+
+.first_main_background_section {
+    height: 700px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_main_background_section_img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 1700px;
+}
+
+.home_first_main_background_section_article {
+    position: absolute;
+    top: calc(100% - 320px);
+    left: 9%;
+}
+.home_first_main_background_section_article h1 {
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.home_first_main_background_section_article h5 {
+    font-size: 20px;
+}
+
+.middle_main_background_section {
+    height: 900px;
+}
+
+.last_main_background_section {
+    height: 300px;
+}
+
+.initial_product_display {
+    position:absolute;
+    top: calc(100% - 68.5667px);
+    width: 91%;
+    right: 0;
+    -webkit-box-shadow: -30px 44px 4px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: -30px 44px 4px 0px rgba(0,0,0,0.5);
+    box-shadow: -30px 44px 4px 0px rgba(0,0,0,0.5);
+}
+
+.initial_product_display_tag_container {
+    position: relative;
+}
+
+.initial_product_display_tag {
+  width: 25%;
+
+  font-size: 20px;
+  padding: 20px 0 20px 40px;
+}
+
+.initial_product_display_additional_tag {
+    position: absolute;
+    right: calc(12.5% - 68.5667px / 2);
+    top: 0;
+
+    width: 68.5667px;
+    height: 100%;
+}
+.initial_product_display_additional_tag img {
+    height: 100%;
+    width: 100%;
+}
+
+.initial_display_product_list {
+    display: flex;
+}
+
+/* flex: 1 1 25%; */
+
+.overlay_to_top {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+  width: 100%;
+  height: 0;
+
+  transition: .5s ease;
+}
+
+.overlay_to_bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+  width: 100%;
+  height: 0;
+
+  transition: .5s ease;
+}
+
+.product_initial_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 20%;
+
+  transition: 3.5s ease;
+}
+
+.product_title_text {
+  margin: 4px;
+}
+
+.product_description_text {
+  margin: 5px;
+}
+
+.product_home {
+    position: relative;
+
+    width: 25%;
+    height: 400px;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_home img {
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 420px;
+}
+.product_home:hover .overlay_to_top {
+  height: 20%;
+}
+.product_home:hover .overlay_to_bottom {
+  height: 20%;
+}
+.product_home:hover .product_initial_overlay {
+    height: 0;
+    transition: none;
+}
+
+.full_scale_element_image_sepia {
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  transition: .5s ease;
+}
+.full_scale_element_image_sepia:hover {
+  filter: none;
+}
+
+.home_slide_show_element {
+    position: relative;
+
+    width: 50%;
+    height: 100%;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_slide_show_element img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+
+    max-height: 120%;
+}
+
+.partners_display_section {
+    text-align: center;
+    padding: 20px 0;
+}
+.partners_display_section img {
+    height: 80px;
+}
+
+#partners_display_article_container {
+    margin: 20px 0;
+    align-items: flex-start;
+}
+
+.partners_display_article {
+    text-align: inherit;
+}
+.partners_display_article img {
+    display: block;
+    margin: 0 auto;
+}
+.partners_display_article hr {
+    margin: 10px 0 5px;
+}
+
+body.modal-open {
+  overflow-y: hidden;
+}
+
+.full-screen {
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+/*
+    END Home
+*/
+
+/*
+    About Page
+*/
+
+.description a:link {
+  text-decoration: none;
+
+}
+
+.description a:hover {
+  text-decoration: none;
+  color: #691616;
+}
+
+.panel_d{
+  margin: 5% 4%;
+  padding: 0px;
+  border-color: #cccccc;
+  border-radius: 1%;
+}
+.panel_d > .panel-heading {
+  padding: 2% 7%;
+  background-color: #7c5050;
+  color: #fcf8e3;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.panel-body{
+  padding: 3% 7%;
+  background-color: #fef9ff;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.description{
+  background-color: #fef9ff ;
+  width: 100%;
+  padding: 4% 10%;
+}
+.description p{
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.second_div{
+  background-color: #fef9ff ;
+  width: 100%;
+  padding: 0% 8%;
+  position: relative;
+
+  display: flex;
+}
+
+/*
+    END About
+*/
+
+/*
+    Products Page
+*/
+
+
+
+/*
+    END Products
+*/
+
+
+.blur {-webkit-filter: blur(4px);filter: blur(4px);}
+.brightness {-webkit-filter: brightness(250%);filter: brightness(250%);}
+.contrast {-webkit-filter: contrast(180%);filter: contrast(180%);}
+.grayscale {-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+.huerotate {-webkit-filter: hue-rotate(180deg);filter: hue-rotate(180deg);}
+.invert {-webkit-filter: invert(100%);filter: invert(100%);}
+/* .opacity {filter: opacity(50%);} */
+.saturate {-webkit-filter: saturate(7); filter: saturate(7);}
+.sepia {-webkit-filter: sepia(100%);filter: sepia(100%);}
+.shadow {filter: drop-shadow(8px 8px 10px green);}

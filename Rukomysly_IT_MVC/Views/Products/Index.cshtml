@@ -1,0 +1,101 @@
+﻿
+@{
+    ViewBag.Title = "Products | Rukomysly";
+}
+
+<div class="main-container">
+    <div class="background">
+        <img src="img.png">
+    </div>
+    <div class="cart-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <hr>
+        <div class="cart">
+            <span> Корзина </span>
+            <div class="item" draggable="true">
+                <img src="mountain-1.jpg" alt="">
+                <span> Назва продукту</span>
+                <span> 100  </span>
+            </div>
+            <div class="item" draggable="true">
+                <img src="mountain-2.jpeg" alt="">
+                <span> Назва продукту</span>
+                <span> 100  </span>
+            </div>
+            <div class="item" draggable="true">
+                <img src="mountain-3.jpg" alt="">
+                <span> Назва продукту</span>
+                <span> 100  </span>
+            </div>
+        </div>
+        <hr>
+        <div class="total-price">
+            <span> Загальна ціна: </span>
+            <br>
+            <span> 300 </span>
+        </div>
+        <hr>
+        <div class="filter">
+            <span> Фільтр </span>
+            <div class="material">
+                <span> Матеріал: </span>
+                <br>
+                <select>
+                    <option>Бавовна</option>
+                    <option>Деревина</option>
+                    <option>Шовк</option>
+                </select>
+            </div>
+            <div class="price">
+                <span> Ціна: </span>
+                <div class="price-sort">
+                    <span> Від: </span>
+                    <input type="text" placeholder="0">
+                    <span> До: </span>
+                    <input type="text" placeholder="100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products-search-container">
+        <div class="search-container">
+            <input type="email" placeholder="Введіть запит для пошуку...">
+            <button type="button"> Знайти </button>
+        </div>
+        <div class="products-container">
+            <div class="product" id="product-1" draggable="true" ondragstart="drag(event)">
+                <img src="mountain-1.jpg" alt="">
+                <div class="product-content">
+                    <span class="product-name"> Назва продукту </span>
+                    <br>
+                    <span class="product-price"> 100 </span>
+                </div>
+            </div>
+            <div class="product" id="product-2" draggable="true" ondragstart="drag(event)">
+                <img src="mountain-2.jpeg" alt="">
+                <div class="product-content">
+                    <span class="product-name"> Назва продукту </span>
+                    <br>
+                    <span class="product-price"> 100 </span>
+                </div>
+            </div>
+            <div class="product" id="product-3" draggable="true" ondragstart="drag(event)">
+                <img src="mountain-3.jpg" alt="">
+                <div class="product-content">
+                    <span class="product-name"> Назва продукту </span>
+                    <br>
+                    <span class="product-price"> 100 </span>
+                </div>
+            </div>
+            <div class="product" id="product-4" draggable="true" ondragstart="drag(event)">
+                <img src="mountain-4.jpg" alt="">
+                <div class="product-content">
+                    <span class="product-name"> Назва продукту </span>
+                    <br>
+                    <span class="product-price"> 100 </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
